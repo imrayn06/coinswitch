@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Switch</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+        * {
+            font-family: "Open Sans", sans-serif;
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* border: 1px solid; */
+            padding: 20px;
+        }
+
+        header>div {
+            padding-left: 50px;
+        }
+
+        header>div:nth-of-type(2) {
+            padding-left: 30%;
+            /* background-color: aqua; */
+        }
+
+        header>button {
+            margin-left: 30px;
+            /* background-color: aqua; */
+        }
+
+        .first {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* border: 1px solid; */
+            text-align: left;
+            width: 1100px;
+            /* margin-left: 400px; */
+
+        }
+
+        main {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        main2>section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 70px;
+            margin-top: 60px;
+
+            /* border: 1px solid; */
+            /* background-color: rgb(255, 255, 255); */
+
+        }
+
+        main2>section:hover,
+        main2>section>div:not(:hover) {
+            background-color: rgb(255, 255, 255);
+            /* opacity: 0.9; */
+
+        }
+
+        main2>section>div:hover {
+            background-color: rgb(228, 188, 68);
+        }
+
+        main2>section>div>div:nth-of-type(2) {
+            text-align: left;
+            width: 200px;
+            margin-top: 40px;
+
+        }
+
+        main3 {
+            display: flex;
+            justify-content: center;
+            background-image: linear-gradient(white, #e9effe, white);
+
+        }
+
+        main3>section {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            padding: 20px;
+            width: auto;
+            margin-top: 60px;
+            box-sizing: border-box;
+
+
+            /* text-align: center;
+            justify-content: center; */
+        }
+
+        main3>section>div {
+            /* background-color: aqua; */
+            padding: 20px;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+            border-radius: 15px;
+            width: 210px;
+            height: 250px;
+            background-color: white;
+            margin-top: 30px;
+
+
+        }
+
+        .sec1 {
+            display: flex;
+            padding: 50px;
+            justify-content: center;
+            /* text-align: center; */
+            gap: 550px;
+            /* margin-top: 50px; */
+        }
+
+        .sec2 {
+            display: flex;
+            padding: 50px;
+            justify-content: center;
+            /* text-align: center; */
+            gap: 200px;
+        }
+
+
+        .last {
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            gap: 70px
+        }
+
+        .midbody {
+            box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+            border-radius: 10px;
+            padding-top: 20px;
+        }
+
+        .follow {
+            width: 40px;
+        }
+
+        button {
+            padding: 15px;
+            background-color: #b1e50e;
+            border: none;
+            border-radius: 15px;
+            /* font-weight: bold; */
+            font-size: medium
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="https://coinswitch.co/_next/static/media/logo.01525825.svg" alt="">
+        </div>
+        <div>Products</div>
+        <div>Coins</div>
+        <div>Ventures</div>
+        <div>Blog</div>
+        <div>Company</div>
+        <button>Login To Pro</button>
+    </header>
+    <section class="midbody">
+        <main>
+            <section class="first">
+                <div><img src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/blockchain.webp"
+                        alt="">
+                </div>
+                <div>We believe that Web3 and blockchain are the foundations of the new digital, decentralized economy.
+
+                    <p>To this end, we’re partnering with startups that are advancing the future of Blockchain
+                        technology.
+                        We provide early stage founders with the capital, network connections and most importantly, the
+                        advice they need to transform the Web3 landscape in India.</p>
+
+                </div>
+            </section>
+
+        </main>
+        <div style="margin-left: 400px; display: flex;margin-top: 200px;">
+            <h1 style="font-size:50px;">Why it Matters?</h1>
+        </div>
+
+        <main2>
+            <section>
+                <div>
+                    <div><img src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/partnership.svg"
+                            alt="">
+                    </div>
+                    <div>Partnership with India’s
+                        largest wealth tech
+                        destination</div>
+                </div>
+                <div>
+                    <div><img src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/network.svg"
+                            alt="">
+                    </div>
+                    <div>Access to a network of 70+
+                        global venture capital
+                        partners</div>
+                </div>
+                <div>
+                    <div><img src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/capital.svg"
+                            alt="">
+                    </div>
+                    <div>Capital infusion up to
+                        $250,000</div>
+                </div>
+                <div>
+                    <div><img src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/mentorship.svg"
+                            alt="">
+                    </div>
+                    <div>Mentorship from
+                        in-house experts</div>
+                </div>
+
+            </section>
+
+        </main2>
+        <div style="margin-left: 400px; display: flex;margin-top: 200px;">
+            <h1 style="font-size:50px;">Our Selected Portfolio</h1>
+        </div>
+        <main3>
+            <section class="second">
+                <div>
+                    <img src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/pyor.svg" alt="">
+                    <h3>PYOR
+                    </h3>
+                    <p>Blockchain data & research</p>
+                </div>
+                <div>
+                    <img src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/silencelab.svg" alt="">
+                    <h3>Silence labs
+                    </h3>
+                    <p>Web3 wallet tech
+                        provider</p>
+                </div>
+                <div>
+                    <img src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/shield.svg" alt="">
+                    <h3></h3>
+                    <p>Web3 community
+                        management tools</p>
+                </div>
+                <div>
+                    <img src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/polytrade.svg" alt="">
+                    <h3>PolyTrade</h3>
+                    <p>DeFi liquidity for trade
+                        finance</p>
+                </div>
+                <div>
+                    <img src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/airstack.svg" alt="">
+                    <h3>AirStack</h3>
+                    <p>Blockchain data
+                        analytics</p>
+                </div>
+                <div>
+                    <img src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/playzap.svg" alt="">
+                    <h3>PlayZap</h3>
+                    <p>Skill-to-earn Web3
+                        gaming platform</p>
+                </div>
+                <div>
+                    <img src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/BlockScholes.svg"
+                        alt="">
+                    <h3>BlockScholes</h3>
+                    <p>Institutional-grade
+                        crypto analytics</p>
+                </div>
+                <div>
+                    <img src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/stan.svg" alt="">
+                    <h3>Stan</h3>
+                    <p>E-Sports Fan
+                        Engagement Platform</p>
+                </div>
+                <div>
+                    <img src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/WallChain.svg" alt="">
+                    <h3>Wallchain</h3>
+                    <p>Most used MEV Rebate
+                        solution for EVM chains</p>
+                </div>
+                <div>
+                    <img src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/nGrave.svg" alt="">
+                    <h3>NGrave</h3>
+                    <p>Safest Crypto Cold
+                        Wallet</p>
+                </div>
+                <div>
+                    <img src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/griffy.svg" alt="">
+                    <h3>Griffy</h3>
+                    <p>Nasdaq for Opinion
+                        Trading</p>
+                </div>
+                <div>
+                    <img src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/bitscrunch.svg" alt="">
+                    <h3>BitsCrunch</h3>
+                    <p>tool forensicsNFT</p>
+                </div>
+
+            </section>
+        </main3>
+
+
+    </section>
+    <footer style="background-color: #1b1e2d; color: white;">
+        <section class="sec1">
+            <div>
+                <img style="background-color: white; border-radius: 15px; padding: 10px;"
+                    src="https://coinswitch.co/_next/static/media/logo.01525825.svg" alt="">
+                <div>Follow us on</div>
+                <a href=""><img class="follow" src="https://coinswitch.co/_next/static/media/telegram.c297ee92.png"
+                        alt=""></a>
+                <a href=""><img class="follow" src="https://coinswitch.co/_next/static/media/instagram.76d06978.png"
+                        alt=""></a>
+                <a href=""><img class="follow" src="https://coinswitch.co/_next/static/media/facebook.d76032a2.png"
+                        alt=""></a>
+                <a href=""><img class="follow" src="https://coinswitch.co/_next/static/media/twitter.43fb8f47.png"
+                        alt=""></a>
+                <a href=""><img class="follow" src="https://coinswitch.co/_next/static/media/youtube.64e4ed27.png"
+                        alt=""></a>
+                <a href=""><img class="follow" src="https://coinswitch.co/_next/static/media/linkedin.92e1e794.png"
+                        alt=""></a>
+
+
+
+            </div>
+            <div>
+                <div>We are available on
+                    most familiar channels</div>
+                <div>Email Us
+                    support@coinswitch.co</div>
+                <div>Raise a Ticket
+                    Click here</div>
+
+
+            </div>
+
+        </section>
+        <hr>
+        <section class="sec2">
+            <div>
+                <p>Products</p>
+                <p>Crypto Rupee Index (CRE8)</p>
+                <p>Systematic Investment Plan</p>
+                <p></p>
+            </div>
+            <div>
+                <p>Buy Crypto</p>
+                <p>Buy Bitcoin</p>
+                <p>Buy Ethereum</p>
+                <p>Buy Doge coin</p>
+            </div>
+            <div>
+                <p>Policies</p>
+                <p>T&C</p>
+                <p>AML Policy</p>
+                <p>Privacy Policy</p>
+            </div>
+            <div>
+                <p>Company</p>
+                <p>About us</p>
+                <p>Ventures</p>
+                <p>Careers</p>
+            </div>
+
+        </section>
+        <hr>
+
+        <div class="last">
+            <div>c 2018-2023 and ™ Bitkuber Investments Private Limited</div>
+            <div>Terms & Conditions</div>
+            <div>Privacy Policy</div>
+            <div>Trading Policy</div>
+        </div>
+    </footer>
+</body>
+
+</html>
